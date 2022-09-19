@@ -2,33 +2,6 @@ import java.util.Scanner;
 import java.util.Random;
 
 public class Main {
-
-
-    public static void doTaskTwo() {
-        Scanner in = new Scanner(System.in);
-        System.out.println("Введите размерность необходимого массива:");
-
-        int arrRange = in.nextInt();
-        int[] numbersArray = new int[arrRange];
-        Random randomNum = new Random();
-
-        for (int i = 0; i < arrRange; i++) {
-            numbersArray[i] = randomNum.nextInt(100);
-        }
-
-        System.out.println("При выводе четные числа будут помечаться символом: ^_^");
-        System.out.println("Сколько чисел вы хотите вывести?");
-
-        int neededNumberOut = in.nextInt();
-
-        for (int i = 0; i < neededNumberOut; i++) {
-            if (numbersArray[i] % 2 == 0)
-                System.out.println(numbersArray[i] + "^_^");
-            else
-                System.out.println(numbersArray[i]);
-        }
-    }
-
     public static void doTaskThree() {
         Scanner in = new Scanner(System.in);
         System.out.println("Введите размерность необходимого массива:");
@@ -96,7 +69,9 @@ public class Main {
                 FibNum countNum = new FibNum();
                 countNum.countFibNum();
             } else if (choice == 2) {
-                doTaskTwo();
+                LimitedArray printArr = new LimitedArray();
+                printArr.fillArray();
+                printArr.printLimitedArray();
             } else if (choice == 3) {
                 doTaskThree();
             } else if (choice == 4) {
@@ -105,8 +80,6 @@ public class Main {
                 break;
             }
         }
-
         in.close();
-
     }
 }
