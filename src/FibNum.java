@@ -5,7 +5,7 @@ public class FibNum {
     private int beforeLast = 0;
     private int range;
 
-    void countFibNum() {
+    public void countFibNum() {
         System.out.println("Введите желаемый номер чесла Фибоначчи:");
         Scanner in = new Scanner(System.in);
 

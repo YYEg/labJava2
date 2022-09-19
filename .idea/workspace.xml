@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0edbb583-e6aa-4236-b204-638780b0b51f" name="Changes" comment="Add first task with class">
-      <change afterPath="$PROJECT_DIR$/src/AvarageOfArr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LimitedArray.java" afterDir="false" />
+    <list default="true" id="0edbb583-e6aa-4236-b204-638780b0b51f" name="Changes" comment="Add second task with class">
+      <change afterPath="$PROJECT_DIR$/src/Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Words.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AvarageOfArr.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FibNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FibNum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LimitedArray.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,13 +37,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/supir/IdeaProjects/LabJava1/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/supir/IdeaProjects/LabJava1/src/Main.java",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Java"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -72,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663511875742</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add second task with class">
+      <created>1663588989827</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663588989827</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,6 +99,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit(Lab2)" />
     <MESSAGE value="Add first task with class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add first task with class" />
+    <MESSAGE value="Add second task with class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add second task with class" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
